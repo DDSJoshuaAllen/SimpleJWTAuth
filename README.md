@@ -10,6 +10,7 @@ It's a standard that is used to share security information between 2 parties, a 
 
 ### Example Decoded JWT
 
+Encoded Token:
 ```
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0Iiwicm9sZSI6IjEiLCJleHAiOjE2NTkwMDcyMjksImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjQ0MzgxIn0.khLqKDurxV4kHvEGw88s1cwGR01bJp-lKSeNJjf01j4
 ```
@@ -30,9 +31,7 @@ You can put this token into a jwt decoder to extract information such as https:/
 [signature]
 ```
 
-The claims are `sub` and `role`.
-
-sub being the subject of the token and role being the subject's role (user, admin) for example.
+The claims are `sub` and `role`. Sub being the subject of the token and role being the subject's role (user, admin) for example.
 
 ### How it works?
 
