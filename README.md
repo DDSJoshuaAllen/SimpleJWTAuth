@@ -6,19 +6,38 @@ This project is a simple implementation of JWT(JSON Web Token) authorisation/aut
 
 #### What is JWT?
 
-It's a standard that is used to share security information between 2 parties, a client and server.
-A JWT contains encoded JSON objects which can have a set of claims for example username and user role. JWTs are signed using a cryptographic algorithm to ensure security.
+It's a standard that is used to share security information between 2 parties, a client and server. A JWT contains encoded JSON objects these are the Header (ALGORITHM & TOKEN TYPE), Payload (DATA)
 
-### How it works?
-
-JWTs contain a set of claims which is used to transfer information between the client and server, claims are dependent on the use case at hand. Some commonly used claims are who issued the token, how long it is valid for and what permissions the client has been granted.
-JWT is a string that is made up of three parts, these are seperated by dots and serialised using base 64.
+### Example Decoded JWT
 
 ```
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0Iiwicm9sZSI6IjEiLCJleHAiOjE2NTkwMDcyMjksImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjQ0MzgxIn0.khLqKDurxV4kHvEGw88s1cwGR01bJp-lKSeNJjf01j4
 ```
 
 You can put this token into a jwt decoder to extract information such as https://jwt.io/
+
+```
+{
+ alg: "HS256",
+ typ: "JWT"
+}.
+{
+ sub: "test",
+ role: "1",
+ exp: 1659007229,
+ iss: "https://localhost:44381"
+}.
+[signature]
+```
+
+The claims are `sub` and `role`.
+
+sub being the subject of the token and role being the subject's role (user, admin) for example.
+
+### How it works?
+
+JWTs can contain a set of claims which is used to transfer information between the client and server, claims are dependent on the use case at hand. Some commonly used claims are who issued the token, how long it is valid for and what permissions the client has been granted.
+JWT is a string that is made up of three parts, these are seperated by dots and serialised using base 64.
 
 ### Installation
 

@@ -3587,11 +3587,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joshua allen\\source\\repos\\AuthenticationExample\\AuthenticationExample\\AuthenticationExample.csproj",
+      "projectUniqueName": "C:\\Users\\joshua allen\\Documents\\GitHub\\SimpleJWTAuth\\JWTAuthWebApi\\AuthenticationExample\\AuthenticationExample.csproj",
       "projectName": "AuthenticationExample",
-      "projectPath": "C:\\Users\\joshua allen\\source\\repos\\AuthenticationExample\\AuthenticationExample\\AuthenticationExample.csproj",
+      "projectPath": "C:\\Users\\joshua allen\\Documents\\GitHub\\SimpleJWTAuth\\JWTAuthWebApi\\AuthenticationExample\\AuthenticationExample.csproj",
       "packagesPath": "C:\\Users\\joshua allen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joshua allen\\source\\repos\\AuthenticationExample\\AuthenticationExample\\obj\\",
+      "outputPath": "C:\\Users\\joshua allen\\Documents\\GitHub\\SimpleJWTAuth\\JWTAuthWebApi\\AuthenticationExample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

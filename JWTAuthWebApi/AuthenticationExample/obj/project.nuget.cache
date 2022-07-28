@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8/e26tFJICdU8Bwc/Gc9aYpJat8YVszDWFdAj+CTXw5w7nT0fkAdBJTHk71XVBqtDGw7RsUDWmQ/UI2dEp7lFg==",
+  "dgSpecHash": "veExexd4Vyco82mwnLQXMzF3+cI84/idfj/F0vM9bQyqvvTiimKXF+pGFGv/uqR7+liozcvI/aDGusWgl4cQmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joshua allen\\source\\repos\\AuthenticationExample\\AuthenticationExample\\AuthenticationExample.csproj",
+  "projectFilePath": "C:\\Users\\joshua allen\\Documents\\GitHub\\SimpleJWTAuth\\JWTAuthWebApi\\AuthenticationExample\\AuthenticationExample.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joshua allen\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.27\\microsoft.aspnetcore.authentication.jwtbearer.3.1.27.nupkg.sha512",
     "C:\\Users\\joshua allen\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
